@@ -1,0 +1,16 @@
+{
+  "name": "EUreka3DXR_tester",
+  "version": "25AUG/01",
+  "description": "Test EUreka3D-XR",
+  "author": "ILM",
+  "license": "Free Public License 1.0.0",  
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-session": "^1.17.3"
+  }
+}
+
