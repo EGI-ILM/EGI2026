@@ -3,7 +3,7 @@ const { Issuer, generators } = require('openid-client');
 async function setupOIDC(app) {
   const issuer = await Issuer.discover('https://aai-dev.egi.eu/auth/realms/egi');  // Development environment
   const client = new issuer.Client({
-    client_id: 'USE_YOUR_FEDERATION_REGISTRY_OD',
+    client_id: 'USE_YOUR_FEDERATION_REGISTRY_ID',
     client_secret: 'USE_YOUR_FEDERATION_REGISTRY_SECRET',
     redirect_uris: ['http://localhost:8081/callback'],
     response_types: ['code'],
